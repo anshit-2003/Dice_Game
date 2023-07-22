@@ -2,7 +2,7 @@
 
 Welcome to the Dice Game - a simple React application built as part of my learning journey with React! The objective of the game is to keep rolling two dice until their sum adds up to 10. It's a fun and straightforward game to test your luck and enjoy the excitement of rolling virtual dice.
 
-# [Live Demo]((https://dice-game-plum.vercel.app/))
+# [Live Demo](https://dice-game-plum.vercel.app/)
 
 ## How to Play
 

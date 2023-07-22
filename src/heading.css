@@ -1,0 +1,15 @@
+.heading{
+    font-family: 'Your Preferred Font', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #ff6600;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    letter-spacing: 2px;
+    line-height: 1.2;
+    background-image: linear-gradient(45deg, #ff6600, #ff33cc);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}

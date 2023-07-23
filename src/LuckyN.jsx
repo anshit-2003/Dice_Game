@@ -12,9 +12,9 @@ export default function LuckyN({ numDice = 2, target = 7 }) {
             <h1 className="heading">Lucky {target} Game</h1>
             <h2>{isWinner && "You Win!"}</h2>
             <Dice values={dice} color={isWinner ? "palegreen" : "White"} />
-            <button className="button" disabled={isWinner} onClick={reRoll}>Roll Again!</button>
+            <button className={isWinner && 'disabled'} disabled={isWinner} onClick={reRoll}>Roll Again!</button>
             <div>
-                <button className="button" disabled={!isWinner} onClick={reRoll}>Reset!</button>
+                <button className={!isWinner && 'disabled'} disabled={!isWinner} onClick={reRoll}>Reset!</button>
             </div>
         </main>
     );

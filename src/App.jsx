@@ -1,15 +1,20 @@
-import './App.css'
-import "./LuckyN"
-import LuckyN from './LuckyN'
+import "./App.css";
+import { sum } from "./utils";
+import "./LuckyN";
+import LuckyN from "./LuckyN";
 function App() {
-
-  return (
-    <>
-      <LuckyN numDice={2} target={10} />
-      <h3>Note : Keep on rolling the dice until you get the sum as 10!</h3>
-    </>
-
-  )
+    function isWinnerSame(arr) {
+        return arr.every((v) => v === arr[0]);
+    }
+    return (
+        <>
+            <LuckyN
+                message="All Three Should be Same!"
+                numDice={3}
+                winner={isWinnerSame}
+            />
+        </>
+    );
 }
 
-export default App
+export default App;

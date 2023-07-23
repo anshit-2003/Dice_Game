@@ -1,6 +1,6 @@
-.heading{
-    font-family: 'Your Preferred Font', sans-serif;
-    font-size: 3rem;
+.heading {
+    font-family: "Your Preferred Font", sans-serif;
+    font-size: 2rem;
     font-weight: bold;
     color: #ff6600;
     text-transform: uppercase;
@@ -11,11 +11,9 @@
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-
 }
-.disabled{
+.disabled {
     cursor: not-allowed;
-    
 }
 .disabled:hover {
     border-color: red;
